@@ -3,53 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bot Ø𝐓𝐈</title>
+  <title>Ø𝐓𝐈 - Bot de Moderación</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      color: #e0f7fa;
       background: url('https://images.unsplash.com/photo-1609501674533-83e721f3dbbe?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
       background-size: cover;
+      color: #e0f7fa;
     }
 
     .overlay {
-      background-color: rgba(0, 40, 60, 0.8);
+      background-color: rgba(0, 30, 45, 0.85);
       min-height: 100vh;
-      padding: 40px;
+      padding: 60px 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
 
+    img.logo {
+      width: 160px;
+      margin-bottom: 30px;
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(0,255,255,0.4);
+    }
+
     h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
+      font-size: 4em;
       color: #4dd0e1;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
     }
 
     h2 {
+      font-size: 1.6em;
       font-weight: normal;
-      font-size: 1.3em;
-      max-width: 800px;
-      margin: 0 auto 30px auto;
+      max-width: 900px;
       color: #b2ebf2;
+      margin-bottom: 30px;
+      line-height: 1.6;
     }
 
     .buttons {
-      margin-top: 30px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
     }
 
     .buttons a {
       text-decoration: none;
       background-color: #26c6da;
       color: #00363a;
-      padding: 12px 20px;
-      margin: 10px;
-      border-radius: 8px;
+      padding: 14px 24px;
+      border-radius: 10px;
       font-weight: bold;
       transition: background-color 0.3s ease;
+      min-width: 220px;
+      text-align: center;
     }
 
     .buttons a:hover {
@@ -57,16 +71,13 @@
     }
 
     footer {
-      margin-top: 50px;
-      color: #80deea;
+      margin-top: 60px;
       font-size: 0.95em;
+      color: #80deea;
     }
 
-    img.logo {
-      width: 120px;
-      margin-bottom: 20px;
-      border-radius: 50%;
-      box-shadow: 0 0 10px rgba(0,255,255,0.3);
+    a {
+      color: #80deea;
     }
   </style>
 </head>
@@ -74,12 +85,13 @@
   <div class="overlay">
     <img src="https://i.postimg.cc/5yHKWmsB/242-sin-t-tulo-20250726120840.png" alt="Logo Ø𝐓𝐈" class="logo" />
 
-    <h1>Bienvenido a Ø𝐓𝐈</h1>
+    <h1>Ø𝐓𝐈</h1>
 
     <h2>
-      Ø𝐓𝐈 es un bot de moderación en constante expansión, diseñado para servidores que buscan eficiencia y control.<br><br>
-      Desarrollado en Java simplificado (BDS2), Ø𝐓𝐈 combina ligereza con potencia.<br><br>
-      Nuestro código es abierto bajo solicitud por correo. Estamos construyendo un entorno seguro y flexible para todos.
+      Ø𝐓𝐈 es un <strong>bot de moderación</strong> moderno y funcional.<br><br>
+      Diseñado para brindar herramientas esenciales como <code>/warn</code>, <code>/ban</code>, <code>/help</code>, <code>/ticket</code> y más, Ø𝐓𝐈 está hecho para mantener tus servidores seguros, organizados y bajo control.<br><br>
+      Desarrollado completamente en <strong>Java (versión simplificada BDS2)</strong>, garantiza un rendimiento estable y rápido.<br><br>
+      Somos una comunidad abierta. El bot es de <strong>código abierto</strong> bajo solicitud. Si necesitas ayuda para integrarlo, ¡estamos para ayudarte!
     </h2>
 
     <div class="buttons">
@@ -89,8 +101,8 @@
 
     <footer>
       Contacto: <a href="mailto:Laelaboracion5@gmail.com">Laelaboracion5@gmail.com</a><br>
-      Ø𝐓𝐈 Bot © 2025 · Código abierto bajo solicitud
+      Ø𝐓𝐈 Bot © 2025 · Proyecto de código abierto bajo solicitud
     </footer>
   </div>
 </body>
-  </html>
+</html>
